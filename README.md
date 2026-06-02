@@ -1,6 +1,6 @@
 # itential-trigger
 
-A minimal Python CLI for triggering [Itential Operations Manager](https://www.itential.com/) workflows over the API. Point it at a trigger route, optionally hand it a JSON payload, and it fires a POST — fire-and-forget by default, or block and poll until the job finishes.
+A minimal Python CLI for triggering [Itential Operations Manager](https://docs.itential.com/itential-platform/6/operations-manager/triggers) workflows over the API. Point it at a trigger route, optionally hand it a JSON payload, and it fires a POST — fire-and-forget by default, or block and poll until the job finishes.
 
 ## Requirements
 
