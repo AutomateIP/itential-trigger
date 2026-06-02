@@ -72,7 +72,7 @@ python trigger_workflow.py my-route '{"device": "router1"}' --wait --poll-interv
 | Flag | Description | Default |
 |------|-------------|---------|
 | `--wait` | Block and poll until the job reaches a terminal status (`complete`, `error`, `cancelled`). Prints status on each tick. | off |
-| `--poll-interval <seconds>` | How often to poll for status when using `--wait`. | `3` |
+| `--poll-interval <seconds>` | How often to poll for status when using `--wait`. | `10` |
 
 ## Behavior
 

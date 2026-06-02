@@ -216,9 +216,9 @@ Examples:
     parser.add_argument(
         "--poll-interval",
         type=int,
-        default=3,
+        default=10,
         metavar="SECONDS",
-        help="Seconds between job status polls when --wait is set (default: 3).",
+        help="Seconds between job status polls when --wait is set (default: 10).",
     )
     return parser.parse_args()
 
